@@ -1,0 +1,53 @@
+.main__container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.square {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	border-radius: 3px;
+	position: relative;
+	font-family: arial;
+	letter-spacing: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 38px;
+}
+
+.main p {
+	display: inline-block;
+}
+
+.main__square-magna {
+	background: linear-gradient(0deg,#de7a8c, #ef8a9c)
+}
+
+.main__square-lorem {
+	background: linear-gradient(0deg,#5aa9cf, #77c7ed)
+}
+	
+.main__square-feugiat{
+	background: linear-gradient(0deg,#5aaea2, #64b4a8)
+}
+
+.main__square-tempus {
+	background: linear-gradient(0deg,#c16491, #d174a0)
+}
+
+.main__square-aliquam {
+	background: linear-gradient(0deg,#a685bd, #b695cd)
+}
+
+.main__square-veroeros {
+	background: linear-gradient(0deg,#7084c1, #87a3e8)
+}
+
+.section_zero {
+	height: 50px;
+}

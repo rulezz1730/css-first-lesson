@@ -1,0 +1,36 @@
+.header__button {
+	position: fixed;
+	display: inline-block;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 35px solid #585858;
+	right: 100px;
+	top: 60px;
+}
+
+.container {
+	width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 60px;
+}
+.header__logo-image {
+	display: inline-block;
+	height: 46px;
+	width: 40px;
+}
+
+.header__title {
+	display: inline-block;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 11px;
+	font-family: fontawesome-webfont;
+}
